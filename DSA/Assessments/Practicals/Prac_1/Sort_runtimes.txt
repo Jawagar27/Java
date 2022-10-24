@@ -1,0 +1,29 @@
+Bubble sort
+Number of integers to sort	Ascending	Descending	Random order
+				
+150	522.667	136.333	86	
+1500	2524	4000.333	2912	
+15000	68165	338347.33	473554	
+30000	275059	1535584.3	1440369	
+
+Selection sort
+Integers to sort	Ascending	Descending	Random order
+				
+150	365.667	344	336.33	
+1500	3092	10575.333	3899	
+15000	27618.33	115588.33	121752.333	
+30000	96929.67	1049881	1050538.333	
+
+Insertion sort
+Number of integers to sort	Ascending	Descending	Random order
+				
+150	12.333	424.667	261	
+1500	99.667	661.667	258.667	
+15000	959.333	117044	48991	
+30000	1199.667	361718.67	135511.667	
+
+Different results were obtained at different values used. At 150 integers and ascending order the fastest was the insertion sort at approximately 12 nano seconds, descending order bubble sort is the fastest at approximately 136 nano seconds and the random order too bubble was the fastest at 86 nano seconds.
+At 1500 integers and ascending order the fastest was the insertion sort at approximately 99 nano seconds, descending order insertion sort is the fastest at approximately 661 nano seconds and the random order insertion sort was the fastest at 258 nano seconds.
+At 15000 integers and ascending order the fastest was the insertion sort at approximately 959 nano seconds, descending order selection sort is the fastest at approximately 115588 nano seconds and the random order insertion sort was the fastest at 135511 nano seconds.
+At 15000 integers and ascending order the fastest was the insertion sort at approximately 959 nano seconds, descending order selection sort is the fastest at approximately 115588 nano seconds and the random order insertion sort was the fastest at 48991 nano seconds.
+At 30000 integers and ascending order the fastest was the insertion sort at approximately 1199 nano seconds, descending order insertion sort is the fastest at approximately 361718 nano seconds and the random order insertion sort was the fastest at 135511 nano seconds.
